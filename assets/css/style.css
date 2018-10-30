@@ -284,10 +284,95 @@ textarea {
 	margin-bottom: 5px;
 }
 
+@media only screen and (max-width: 980px) {
+	header {
+		display: flex;
+		height: 80px;
+	}
+
+	.name {
+		font-size: 45px;
+		width: auto;
+		height: auto;
+		margin: 0 auto;
+		margin-left: 5%;
+	}
+
+	.menu {
+		font-size: 22px;
+		height: auto;
+	}
+
+	.block {
+		height: auto;
+	}
+
+	.portfolio {
+		height: auto;
+	}
+
+	.contact {
+		height: auto;
+	}
+	.portimg2,
+	.portimg4 {
+		left: 50%;
+	}
+
+	.porttag2,
+	.porttag4 {
+		left: 50%;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	header {
+		display: flex;
+		height: 75px;
+	}
+
+	.name {
+		font-size: 35px;
+		width: auto;
+		height: auto;
+		margin: 0 auto;
+		margin-left: 5%;
+	}
+
+	.menu {
+		font-size: 18px;
+		height: auto;
+	}
+
+	.block {
+		height: auto;
+	}
+
+	.portfolio {
+		display: flex;
+		margin: 0 auto;
+		justify-content: space-evenly;
+		height: auto;
+	}
+
+	.contact {
+		height: auto;
+	}
+	.portimg2,
+	.portimg4 {
+		left: 50%;
+	}
+
+	.porttag2,
+	.porttag4 {
+		left: 50%;
+	}
+}
+
 @media only screen and (max-width: 640px) {
 	header {
 		display: block;
-		height: 85px;
+		height: 75px;
 	}
 
 	.name {
@@ -333,7 +418,6 @@ textarea {
 		margin-top: 5%;
 		width: 80%;
 		height: auto;
-		display: ;
 		justify-content: center;
 	}
 
@@ -355,7 +439,8 @@ textarea {
 		left: 0;
 		margin: 0 auto;
 		position: relative;
-		width: 70%;
+		width: 90%;
+		height: auto;
 	}
 
 	.porttag {
@@ -364,7 +449,7 @@ textarea {
 		margin: 0 auto;
 		bottom: 70px;
 		position: relative;
-		width: 70%;
-
+		width: 90%;
 	}
 }
+
