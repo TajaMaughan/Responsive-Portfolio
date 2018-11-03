@@ -372,7 +372,7 @@ textarea {
 @media only screen and (max-width: 640px) {
 	header {
 		display: block;
-		height: 75px;
+		height: 95px;
 	}
 
 	.name {
@@ -381,7 +381,7 @@ textarea {
 		margin: auto;
 		justify-content: center;
 		font-size: 40px;
-		padding: 0;
+		padding: 10px;
 	}
 
 	.menu {
@@ -389,7 +389,8 @@ textarea {
 		float: none;
 		margin: auto;
 		justify-content: center;
-		padding: 0;
+		align-content: center;
+		padding: 10px;
 	}
 
 	.block {
